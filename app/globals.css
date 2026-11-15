@@ -1,0 +1,4 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+body{background:radial-gradient(900px 500px at 15% -5%,#1e3a8a55,transparent),radial-gradient(800px 500px at 90% 0%,#6d28d955,transparent),#05070f;color:#e5e7eb;min-height:100vh}
+.panel{@apply rounded-xl border border-white/10 bg-white/5 backdrop-blur p-4}
+.btn{@apply rounded-lg bg-gradient-to-r from-blue-600 to-violet-600 px-4 py-2 text-sm font-medium text-white disabled:opacity-40 hover:brightness-110 transition}
